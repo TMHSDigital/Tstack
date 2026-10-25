@@ -1,4 +1,10 @@
-# gstack — AI Engineering Workflow
+# TStack — AI Engineering Workflow
+
+> **TStack** is TM Hospitality Strategies' own fork of
+> [gstack](https://github.com/garrytan/gstack). Read [FORK.md](FORK.md) before
+> anything else: its rules override this file. In short, work directly on
+> `main` (no feature branches, no pull requests), never contribute to
+> `garrytan/gstack`, and never trigger paid spend.
 
 gstack is a collection of SKILL.md files that give AI agents structured roles for
 software development. Each skill is a specialist: CEO reviewer, eng manager,

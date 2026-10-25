@@ -1,8 +1,8 @@
-# Tstack
+# TStack
 
-TM Hospitality Strategies' personal fork of [gstack](https://github.com/garrytan/gstack),
+TStack is TM Hospitality Strategies' own fork of [gstack](https://github.com/garrytan/gstack),
 tailored to our own environments. It is not a contribution fork: changes here
-are not sent upstream.
+are not sent upstream, and work happens directly on `main`.
 
 - Upstream's full README: [README.md](../README.md)
 - Fork rules and the upstream-sync workflow: [FORK.md](../FORK.md)

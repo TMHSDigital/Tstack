@@ -1,4 +1,10 @@
-# gstack development
+# TStack development
+
+TStack is TM Hospitality Strategies' own fork of
+[gstack](https://github.com/garrytan/gstack). Code, binaries and skill names
+still say "gstack"; that's the upstream product this repo builds on. Work
+happens directly on `main`: no feature branches, no pull requests. The TStack
+rules below override everything else in this file.
 
 @FORK.md
 
