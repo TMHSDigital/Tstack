@@ -49,10 +49,13 @@ Don't re-enable them.
 ## No paid spend
 
 The owner does not pay for anything this repo can trigger. Never run paid
-commands: `eval:*`, `test:pr`, `test:gate*`, `test:periodic*`, any `*-e2e`
-or `*.eval.*` test file, `/benchmark-models`, or anything that calls the
-Anthropic, OpenAI or Gemini APIs or rents CI runners. `bun run test` (the free
-suite, which excludes paid test files) is the only test command to use. Never
+commands: `eval:*`, `test:pr`, `test:gate*`, `test:periodic*`, `test:release`,
+any file matching `PAID_TEST_GLOBS` in `test/helpers/paid-test-set.ts`,
+`/benchmark-models`, or anything that calls the Anthropic, OpenAI or Gemini
+APIs or rents CI runners. The free suite excludes those files: on this
+Windows machine run `bun run test:windows` (the Windows-safe subset upstream's
+Windows CI uses); plain `bun run test` includes POSIX-only files that fail
+here for environmental reasons. Never
 enable GitHub Actions workflows, paid GitHub features or third-party services.
 If a task seems to need spend, stop and ask.
 
